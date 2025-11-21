@@ -24,7 +24,8 @@ jobs:
       uses: actions/upload-artifact@v4.4.0
       with:
         name: jacoco-report
-        path: target/site/jacoco
+        path: target/site/jacoco]
+        
         
   # code-analisys:
   #   runs-on: ubuntu-latest
